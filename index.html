@@ -1,1 +1,117 @@
-Future home of the Bento Platform website.
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="reveal.js/dist/reset.css">
+		<link rel="stylesheet" href="reveal.js/dist/reveal.css">
+		<link rel="stylesheet" href="reveal.js/dist/theme/beige.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+
+		<style>
+			h2 {color: #A5640E !important;}
+
+			ul > li > ul > li {color: #999; font-size: large !important; margin-bottom: 0% !important;}
+
+			ul:first-of-type {font-size: x-large;}
+			ul:first-of-type li {font-size: x-large; margin-bottom: 2%;}
+
+			ul:not(:first-of-type) {font-size: large; margin-bottom: 0%;}
+
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+
+<!-- Header -->
+<section>
+	<img src="img/Bento_logo_master@2x-8.png" style="max-width: 50%; vertical-align:middle">
+	<br/>
+	<br/>
+	An open-source web platform to explore and share clinical and -omics data.
+	<br/>
+	<br/>
+	<a href="https://github.com/Bento-Platform"><img height="30px" src="img/github-mark.svg" style="vertical-align:middle"> https://github.com/Bento-Platform</a>
+	<br/>
+	<span style="color: #bbb; font-size: medium;">Use the arrow keys for navigation</span>
+</section>
+
+
+<!-- TOC -->
+<section>
+	<h2>Table of Content</h2>
+					<ul>
+						<li><a href="#/slide-introduction">Introduction</a></li>
+						<li><a href="#/slide-features">Features</a></li>
+						<li><a href="#/slide-roadmap">Roadmap</a></li>
+					</ul>
+				</section>
+
+<!-- Introduction -->
+<section id="slide-introduction">
+	<h2>Introduction</h2>
+	<section>
+		<p>
+			A recurrent need for projects in genomics revolves around the implementation, deployment and maintainance of a platform to organise their datasets.
+			The requirements are essentially the same: standardise, ingest, allow querying and retrieval of clinical, experiments and multi-omics data.
+		</p>
+		<p>
+			<a class="navigate-down" style="font-size: large">Read more...</a>
+		</p>
+
+	</section>
+	<section>
+		<p>
+			The Bento platform has been created as a reusable solution to address these common needs. It aims to follow as closely as possible international data standards, such as within <a href="https://www.ga4gh.org/">GA4GH</a>, to unlock the potential of sharing the data alongside other initiatives.
+		</p>
+		<p>
+			<a class="navigate-down" style="font-size: large">Read more...</a>
+		</p>
+	</section>
+					<section>
+	A Bento platform node is composed of many services that each accomplish a specific task. Some components can be brought in, or left out, depending on the needs of the project leveraging it.
+					</section>
+</section>
+
+
+<!-- Features -->
+<section id="slide-features">
+	<h2>Features</h2>
+	<section style="font-size: x-large" data-markdown="./features.md"></section>
+</section>
+
+
+<!-- Roadmap -->
+<section id="slide-roadmap">
+	<h2>Roadmap</h2>
+	<section style="font-size: x-large" data-markdown="./roadmap.md"></section>
+</section>
+
+
+			</div>
+		</div>
+
+		<script src="reveal.js/dist/reveal.js"></script>
+		<script src="reveal.js/plugin/notes/notes.js"></script>
+		<script src="reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="reveal.js/plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

@@ -1,6 +1,7 @@
-## Version 13
+### Version 13
 **Major milestones**
-* Removal of Tables concept: Data will now be organised by Project > Dataset > Data Type
+* Removal of Tables concept
+  * Data will now be organised by Project > Dataset > Data Type
 
 **Other features**
 * API endpoint to extract provenance metadata (DATS format)
@@ -9,7 +10,7 @@
 
 ---
 
-## Version 14
+### Version 14
 **Major milestones**
 * Migration to Phenopackets v2
 * New Authorisation Service
@@ -25,7 +26,7 @@
 
 ---
 
-## Version 15
+### Version 15
 **Major milestones**
 * Search revamp
 	* Merge Aggregation and Beacon services querying
