@@ -18,10 +18,10 @@
 
 ![bento_authenticated1.png](img%2Fbento_authenticated2.png)
 
-* **Authenticated portal:** Run data queries on clinical/phenotypic properties, and genomic variations, at the same time
+**Authenticated portal:** Run data queries on clinical/phenotypic properties, and genomic variations, at the same time
 
 ---
 
 ![bento_beacon.png](img%2Fbento_beacon.png)
 
-* Allow external APIs to query Bento's data using the **Beacon API**
+Allow external APIs to query Bento's data using the **Beacon API**
