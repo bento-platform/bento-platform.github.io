@@ -1,7 +1,7 @@
-### Version 13
+### Version 13 (latest)
 **Major milestones**
 * Removal of Tables concept
-  * Data will now be organised by Project > Dataset > Data Type
+  * Data now organised by Project > Dataset > Data Type
 
 **Other features**
 * API endpoint to extract provenance metadata (DATS format)
@@ -13,7 +13,7 @@
 ### Version 14
 **Major milestones**
 * Migration to Phenopackets v2
-* New Authorisation Service
+* Authorisation Service
     * Limit access to administration and data ingest tools
     * Allow for Beacon authenticated search for full record responses
 * Initial support for cBioPortal
