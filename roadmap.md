@@ -1,4 +1,5 @@
-### Version 13 (Current, 2023-09-08)
+### Version 13
+#### (Current, 2023-09-08)
 **Major milestones**
 * Removal of Tables concept
   * Data now organised by Project > Dataset > Data Type
@@ -10,7 +11,8 @@
 
 ---
 
-### Version 14 (Target: End of October)
+### Version 14
+#### (Target: End of October)
 **Major milestones**
 * Migration to Phenopackets v2
 * Authorisation Service
@@ -19,7 +21,8 @@
 
 ---
 
-### Version 15 (Target: Mid-december)
+### Version 15
+#### (Target: Mid-december)
 **Major milestones**
 * Search revamp
 	* Merge Aggregation and Beacon services querying
