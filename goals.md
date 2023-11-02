@@ -36,7 +36,7 @@ Different Bento setups could make use of some services, but not others. For inst
 
 ---
 
-### Bento is easy to deploy
+### Bento offers tooling to ease deployment
 
 * Deployment of a Bento instance does not require advanced knowledge of the stack
 * CLI tooling is enough to launch a new instance

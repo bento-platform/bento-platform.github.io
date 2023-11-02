@@ -1,28 +1,15 @@
-### Version 13
-#### (Current, 2023-09-08)
+### Version 15
+#### (Target: End of November)
 **Major milestones**
-* Removal of Tables concept
-  * Data now organised by Project > Dataset > Data Type
-
-**Other features**
-* API endpoint to extract provenance metadata (DATS format)
-* Show latest ingestion date on public site
-* Ingestion errors available in workflow execution runs
-
----
-
-### Version 14
-#### (Target: End of October)
-**Major milestones**
-* Migration to Phenopackets v2
+* Migration of clinical and phenotypical data model to Phenopackets v2
 * Authorisation Service
     * Limit access to administration and data ingest tools
     * Allow for Beacon authenticated search for full record responses
 
 ---
 
-### Version 15
-#### (Target: Mid-december)
+### Version 16
+#### (Target: Mid-January)
 **Major milestones**
 * Search revamp
 	* Merge Aggregation and Beacon services querying
