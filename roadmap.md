@@ -4,7 +4,7 @@
 * Migration of clinical and phenotypical data model to Phenopackets v2
 * Authorisation Service
     * Limit access to administration and data ingest tools
-    * Allow for Beacon authenticated search for full record responses
+    * Uncensored counts for authenticated users
 
 ---
 
