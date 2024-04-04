@@ -1,3 +1,18 @@
+### Version 15 (current)
+#### (Released 2024-01-10)
+**Major milestones**
+* Migration of clinical and phenotypical data model to Phenopackets v2
+* New reference genomes service allowing to ingest assembly used with a dataset (e.g. for non-human datasets)
+* Authorisation Service
+    * Limit access to administration and data ingest tools
+    * Uncensored counts for authenticated users
+
+**Other features**
+* User interface improvements for bento_public (aggregate information)
+* Authentication into bento_public to run full Beacon searches
+
+---
+
 ### Version 14 (current)
 #### (Released 2023-11-02)
 **Major milestones**
