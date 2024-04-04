@@ -13,7 +13,7 @@
 
 ---
 
-### Version 14 (current)
+### Version 14
 #### (Released 2023-11-02)
 **Major milestones**
 * Documents other than genomic files and annotations can now be ingested as experiment results
