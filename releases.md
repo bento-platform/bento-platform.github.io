@@ -1,4 +1,19 @@
-### Version 15 (current)
+### Version 16 (current)
+#### (Released: 2024-07-23)
+**Major milestones**
+* Support for cBioPortal as a service within Bento
+	* VCF to MAF conversion workflow 
+	* Minimal set of clinical/biosamples data available through cBioPortal
+* Authorisation service: Create grants, manage users and groups with the User Interface
+
+**Other features**
+* New Bento interface to explore aggregate data
+* Support of data files on Object Storage
+* Reference service now ingests GFF3 annotations
+
+---
+
+### Version 15
 #### (Released 2024-01-10)
 **Major milestones**
 * Migration of clinical and phenotypical data model to Phenopackets v2
