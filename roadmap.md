@@ -8,7 +8,6 @@
 
 **Other features**
 * Support multiple datasets and projects in a node
-* Improved compatibility of Bento Beacon with Elixir/CINECA Beacon network
 
 ---
 
@@ -17,6 +16,3 @@
 **Major milestones**
 * Search revamp
 	* Merge Aggregation and Beacon services querying
-
-**Other features**
-* Improved compatibility of Bento Beacon with Elixir/CINECA Beacon network
