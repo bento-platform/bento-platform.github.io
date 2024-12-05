@@ -1,18 +1,17 @@
-### Version 17
-#### (Target: September)
+### Version 18
+#### (Target: January 2025)
 **Major milestones**
-* Beacon Network functionality: Connecting multiple Bento nodes at different locations in the same UI
-* New Transcriptomics data service
+* New service to index and search transcriptomic data
 * Rewrite of the variants service
-* Support multiple datasets and projects in a node
+* Datasets catalogue
 
 **Other features**
-* Support multiple datasets and projects in a node
+*  Adding Authorization to the Katsu metadata service
 
 ---
 
-### Version 18
-#### (Target: November)
+### Version 19
+#### (Target: 2025-Q1)
 **Major milestones**
 * Search revamp
 	* Merge Aggregation and Beacon services querying

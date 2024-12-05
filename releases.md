@@ -1,3 +1,19 @@
+### Version 17 (current)
+#### (Released: 2024-10-04)
+**Major milestones**
+* Scope: Multiple Projects and Datasets/Cohorts are now supported in Aggregate Data exploration tools
+* Beacon Network: Query multiple Bento nodes using the Beacon v2 API, and present results together
+* Enabled logs monitoring in all Bento services using Grafana
+ 
+
+**Other features**
+* Authenticated users can get more fine-grained responses in the Aggregate Data exploration tools
+* Variants search on non-human genomic data (requires a reference to be ingested in the reference service)
+* DATS provenance metadata can now be ingested/downloaded as a JSON document.
+* Beacon variant search by gene ID
+
+---
+
 ### Version 16 (current)
 #### (Released: 2024-07-23)
 **Major milestones**
