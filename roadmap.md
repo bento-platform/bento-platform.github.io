@@ -1,17 +1,6 @@
-### Version 18
-#### (Target: January 2025)
-**Major milestones**
-* New service to index and search transcriptomic data
-* Rewrite of the variants service
-* Datasets catalogue
-
-**Other features**
-*  Adding Authorization to the Katsu metadata service
-
----
-
 ### Version 19
-#### (Target: 2025-Q1)
+#### (Target: 2025-04)
 **Major milestones**
-* Search revamp
-	* Merge Aggregation and Beacon services querying
+* Merging bento-web and bento-public: Fine-grained data exploration available from the same interface as aggregate data view, based on user authorization level 
+* A single search aggregation service, to be leveraged by all discovery tools (e.g. Beacon API)
+
