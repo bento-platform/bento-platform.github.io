@@ -1,10 +1,23 @@
-### Version 17 (current)
+### Version 18 (current)
+#### (Released: 2025-02-05)
+**Major milestones**
+* Datasets catalogue: A way to explore projects and datasets stored on a Bento node
+* Releasing Takuan: New service to index and search transcriptomics data
+
+**Other features**
+*  Authorization service added to the Katsu metadata service
+* Now possible to ingest any file type as experiment results into DRS
+* Optional MinIO deployment now available
+* Branding features for Bento instances has been improved (for example, with customizable dark and light background logos)
+
+---
+
+### Version 17
 #### (Released: 2024-10-04)
 **Major milestones**
 * Scope: Multiple Projects and Datasets/Cohorts are now supported in Aggregate Data exploration tools
 * Beacon Network: Query multiple Bento nodes using the Beacon v2 API, and present results together
 * Enabled logs monitoring in all Bento services using Grafana
- 
 
 **Other features**
 * Authenticated users can get more fine-grained responses in the Aggregate Data exploration tools
