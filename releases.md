@@ -1,4 +1,4 @@
-### Version 20 (current)
+### Version 20 (Upcoming end of November 2025)
 #### (Released: 2025-11-30
 **Major milestones**
 * New ETL pipeline to standardize and facilitate data integration coming from multiple sources
