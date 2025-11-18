@@ -1,3 +1,19 @@
+### Version 20 (current)
+#### (Released: 2025-11-30
+**Major milestones**
+* New ETL pipeline to standardize and facilitate data integration coming from multiple sources
+* Adding faceted search to Data Catalogue and Search
+
+---
+
+### Version 19 (current)
+#### (Released: 2025-10-31
+**Major milestones**
+* Merging bento-web and bento-public: Fine-grained data exploration available from the same interface as aggregate data view, based on user authorization level.
+* Object store support for all data services, with S3 API.
+
+---
+
 ### Version 18 (current)
 #### (Released: 2025-02-05)
 **Major milestones**
