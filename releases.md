@@ -1,5 +1,5 @@
 ### Version 19 (current)
-#### (Released: 2025-10-31
+#### (Released: 2025-10-31)
 **Major milestones**
 * Merging bento-web and bento-public: Fine-grained data exploration available from the same interface as aggregate data view, based on user authorization level.
 * Object store support for all data services, with S3 API.
