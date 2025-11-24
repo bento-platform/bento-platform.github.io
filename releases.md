@@ -1,11 +1,3 @@
-### Version 20 (Upcoming end of November 2025)
-#### (Released: 2025-11-30
-**Major milestones**
-* New ETL pipeline to standardize and facilitate data integration coming from multiple sources
-* Adding faceted search to Data Catalogue and Search
-
----
-
 ### Version 19 (current)
 #### (Released: 2025-10-31
 **Major milestones**
