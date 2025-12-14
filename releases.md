@@ -2,7 +2,7 @@
 
 ### Version 20 (current)
 #### (Released: 2025-11-28)
-** Major milestones**
+**Major milestones**
 * Biosamples can display collection locations as a map or as coordinates (mostly intended for non-human datasets.
 * Experiments and Experiments Results are visible in Bento Public.
 * A compact view is displayed for the Phenopackets, where everything is shown on the same page, rather than navigating through various tabs.
