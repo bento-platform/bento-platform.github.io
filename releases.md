@@ -1,5 +1,3 @@
----
-
 ### Version 20 (current)
 #### (Released: 2025-11-28)
 **Major milestones**
