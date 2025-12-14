@@ -1,4 +1,14 @@
-### Version 19 (current)
+---
+
+### Version 20 (current)
+#### (Released: 2025-11-28)
+** Major milestones**
+* Biosamples can display collection locations as a map or as coordinates (mostly intended for non-human datasets.
+* Experiments and Experiments Results are visible in Bento Public.
+* A compact view is displayed for the Phenopackets, where everything is shown on the same page, rather than navigating through various tabs.
+
+---
+### Version 19 
 #### (Released: 2025-10-31)
 **Major milestones**
 * Merging bento-web and bento-public: Fine-grained data exploration available from the same interface as aggregate data view, based on user authorization level.
@@ -6,7 +16,7 @@
 
 ---
 
-### Version 18 (current)
+### Version 18 
 #### (Released: 2025-02-05)
 **Major milestones**
 * Datasets catalogue: A way to explore projects and datasets stored on a Bento node
