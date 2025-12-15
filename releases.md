@@ -6,7 +6,7 @@
 * A compact view is displayed for the Phenopackets, where everything is shown on the same page, rather than navigating through various tabs.
 
 **Other features**
-  * Improved text search enabling better results from fukll-text searches.
+  * Improved text search enabling better results from full-text searches.
   * The entity counts in the projects and datasets are displayed in the data catalogue.
   * Units are viewable in the field description of the user interface.
   * Users with sufficient permissions can use the Export as CSV button to export all search results, rather than just the ones on the current page. 
