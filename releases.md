@@ -4,6 +4,7 @@
 * Biosamples can display collection locations as a map or as coordinates mostly intended for non-human datasets.
 * Experiments and Experiments Results are visible in Bento Public. 
 * A compact view is displayed for the Phenopackets, where everything is shown on the same page, rather than navigating through various tabs.
+
 **Other features**
   * Improved text search enabling better results from fukll-text searches.
   * The entity counts in the projects and datasets are displayed in the data catalogue.
@@ -25,7 +26,7 @@
 * Releasing Takuan: New service to index and search transcriptomics data
 
 **Other features**
-*  Authorization service added to the Katsu metadata service
+* Authorization service added to the Katsu metadata service
 * Now possible to ingest any file type as experiment results into DRS
 * Optional MinIO deployment now available
 * Branding features for Bento instances has been improved (for example, with customizable dark and light background logos)
