@@ -48,7 +48,7 @@
 
 ---
 
-### Version 16 (current)
+### Version 16
 #### (Released: 2024-07-23)
 **Major milestones**
 * Support for cBioPortal as a service within Bento
