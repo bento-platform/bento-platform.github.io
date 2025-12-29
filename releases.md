@@ -94,7 +94,7 @@
 #### (Released 2023-09-08)
 **Major milestones**
 * Removal of Tables concept
-  * Data now organised by Project > Dataset > Data Type
+  * Data now organized by Project > Dataset > Data Type
 
 **Other features**
 * API endpoint to extract provenance metadata (DATS format)
