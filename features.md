@@ -6,7 +6,7 @@
 
 ![bento_public1.png](img%2Fbento_public2.png)
 
-**Publicly-accessible dashboard:** Get counts on individuals, biosamles and experiments, filtered by those properties 
+**Publicly-accessible dashboard:** Get counts on individuals, biosamples and experiments, filtered by those properties 
 
 ---
 
