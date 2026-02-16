@@ -8,6 +8,11 @@
 * The navigation now allows users to move forward to a new page without losing their position on the original page. If the user then navigates back, their previous position is automatically restored. Even after refreshing the page, the system remembers where they left off, ensuring a seamless browsing experience forwards or backwards.*
 * Also, a back button to return to the search from the detail view.*
 
+* Other Features *
+* 1. Ontology class-ware discovery functionality, includes look up records by ontology term values.*
+* 2. Users can see all the datasets at once in the Data Catalog (public).*
+* 3. Users can view the dataset using a dataset model in the Provenance tab.*
+* 4. Stricter authorization usage. Users without permission will not be able to see and/or use the “Explore” button.*
 
 ### Version 20 (current)
 #### (Released: 2025-11-28)
