@@ -1,7 +1,6 @@
 ### Version 21 (current)
 #### (Released: 2026-02-06)
 **Major milestones**
-*The experiments table in the phenopacket detail view now shows “Biosamples ID” with links to other data in the above tabs and in the corresponding column under “Sampled Tissue”. Also the Biosamples row is expandable.*
 * The experiments table in the phenopacket detail view now shows "Biosamples ID" with links to othewr data in the above tabs and the corresponding column under "Sampled Tissue". Also the Biosamles row is expandable.*
 * Phenopackets are downloadable directly from Bento Public research portal.*
 * In the Text search box, there is a button (X) to remove text from the “Search” text box.*
