@@ -14,7 +14,7 @@
 * 3. Users can view the dataset using a dataset model in the Provenance tab.*
 * 4. Stricter authorization usage. Users without permission will not be able to see and/or use the “Explore” button.*
 
-### Version 20 (current)
+### Version 20 
 #### (Released: 2025-11-28)
 **Major milestones**
 * Biosamples can display collection locations as a map or as coordinates mostly intended for non-human datasets.
