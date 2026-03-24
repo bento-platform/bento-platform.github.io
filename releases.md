@@ -1,4 +1,11 @@
-### Version 21 (current)
+### Version 22 (current)
+####(Released: 2026-03-16)
+
+**Major Milestones**
+
+**Other features**
+
+### Version 21 
 #### (Released: 2026-02-06)
 **Major milestones**
 * The experiments table in the phenopacket detail view now shows "Biosamples ID" with links to othewr data in the above tabs and the corresponding column under "Sampled Tissue". Also the Biosamles row is expandable.*
