@@ -16,10 +16,10 @@
 * Also, a back button to return to the search from the detail view.*
 
 **Other features**
-* 1. Ontology class-ware discovery functionality, includes look up records by ontology term values.*
-* 2. Users can see all the datasets at once in the Data Catalog (public).*
-* 3. Users can view the dataset using a dataset model in the Provenance tab.*
-* 4. Stricter authorization usage. Users without permission will not be able to see and/or use the “Explore” button.*
+* Ontology class-ware discovery functionality, includes look up records by ontology term values.*
+* Users can see all the datasets at once in the Data Catalog (public).*
+* Users can view the dataset using a dataset model in the Provenance tab.*
+* Stricter authorization usage. Users without permission will not be able to see and/or use the “Explore” button.*
 
 ### Version 20 
 #### (Released: 2025-11-28)
