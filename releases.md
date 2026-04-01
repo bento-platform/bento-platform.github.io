@@ -1,5 +1,5 @@
 ### Version 22 (current)
-#### (Released: 2026-xx-xx)
+#### (Released: 2026-03-16)
 
 **Major Milestones**
 * Fuzzy search - Rather than requiring an exact match, fuzzy search returns results that are close to the entered terms.*
