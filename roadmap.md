@@ -1,6 +1,12 @@
 ### Version 22
-####  (Target 2025-xx)
-
+####  (Target 2026-04)
+**Major Milestones**
+* Fuzzy search - Rather than requiring an exact match, fuzzy search returns results that are close to the entered terms.
+* Biosamples - Linked Experiment View - This update makes it easier to navigate experiment‑related information in the phenopacket view when sufficient permissions are available.
+* Pop‑over Tooltip for Genome Assemblies - This feature adds a helpful tooltip that appears when hovering over a reference genome ID. The pop‑up shows key genome information along with relevant links.
+* Highlighting Entities in the Phenopackets View - When the user clicks on an individual, biosample, or experiment, they will see a highlight around the entity they clicked on.
+* Highlighted Dataset Counts for Search Results - This enhancement shows filtered dataset counts when searching a project with multiple datasets. The number of entities matching the search is now shown in the dataset card.
+  
 ### Version 21
 ####  (Target 2025-12)
 **Major Milestones**
