@@ -7,7 +7,7 @@
 * Pop‑over Tooltip for Genome Assemblies - This feature adds a helpful tooltip that appears when hovering over a reference genome ID. The pop‑up shows key genome information along with relevant links.*
 * Highlighting Entities in the Phenopackets View - When the user clicks on an individual, biosample, or experiment, they will see a highlight around the entity they clicked on.*
 * Highlighted Dataset Counts for Search Results - This enhancement shows filtered dataset counts when searching a project with multiple datasets. The number of entities matching the search is now shown in the dataset card.*
-* 
+  
 **Other features**
   * We can organize and automate how external data is loaded into Bento data services.*
   * User can search arbitrary ranges of numeric fields if the they have sufficient privileges.*
