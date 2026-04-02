@@ -9,10 +9,10 @@
 * Highlighted Dataset Counts for Search Results - This enhancement shows filtered dataset counts when searching a project with multiple datasets. The number of entities matching the search is now shown in the dataset card.*
 * 
 **Other features**
-  * Organize and automate how external data is loaded into Bento data services.*
-  * Search arbitrary ranges of numeric fields if the user has sufficient privileges *
+  * We can organize and automate how external data is loaded into Bento data services.*
+  * User can search arbitrary ranges of numeric fields if the they have sufficient privileges.*
   * Portal Administrators can post-hoc ingest files and associate them with existing experiment results.*
-  * With sufficient privileges the user can serach arbitrary ranges of numeric fields.*
+  * Researchers can have a compact URL which represents the hierarchy of their location on a website.*
   
 
 ### Version 21 
