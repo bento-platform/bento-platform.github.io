@@ -1,7 +1,10 @@
 ### Version 23
 ####  (Target 2026-05)
 **Major Milestones**
-
+* Support multiple values "OR" queries for filters in UI.
+* Add user interface for custom range queries.
+* Design a new dataset model.
+* Add grant editing user interface. 
 
 ### Version 22
 ####  (Target 2026-04)
