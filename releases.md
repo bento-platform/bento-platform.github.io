@@ -1,4 +1,18 @@
-### Version 22 (current)
+### Version 23 (current)
+#### (Released: 2026-05-27)
+
+**Major Milestones**
+* Support Multiple Values "OR" Queries for Filters in UI - This new feature lets authorized users select multiple options for a filter and see results that match any of them *
+* Add User Interface For Custom Range Queries -  This new feature allows authorized users to search for arbitrary ranges of dates or numbers in Bento Public, rather than fixed bins.*
+* New Dataset Model - a new dataset provenance model for metadata about datasets ingested into Bento instances.*
+* Grant Editing User Interface -  lets administrators more easily manage access without leaving the Bento Web interface. *
+
+**Other features**
+* Enhanced Data Catalogue Header - This will provide users with a high-level overview of the instance, and adds a new customizable branding element for instances. *
+* Interactive Biosample Popovers - we are introducing interactive popovers for biosample IDs. Users will be able to hover over a biosample ID  to view immediate details, or click to display the full biosample on the relevant phenopacket page. *
+* New Dataset Model Support - We are updating Bent to support and display our new dataset model *
+
+### Version 22 
 #### (Released: 2026-03-16)
 
 **Major Milestones**
