@@ -1,4 +1,13 @@
-### Version 23 (current)
+### Version 24 (current)
+#### (Released: 2026-06-30)
+
+**Major Milestones**
+
+
+**Other features**
+
+
+### Version 23 
 #### (Released: 2026-05-27)
 
 **Major Milestones**
