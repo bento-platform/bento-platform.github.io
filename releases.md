@@ -13,8 +13,8 @@
 * Biosample pop-over feature. This feature allows users to preview key details about a biosample before opening it, enabling them to quickly assess whether it contains the information they are looking for.*
 
 **Other features**
-*Implementation of the Bento Data Catalogue Design
-New Provenance Display *
+*Implementation of the Bento Data Catalogue Design *
+* New Provenance Display *
 
 ### Version 23 
 #### (Released: 2026-05-27)
