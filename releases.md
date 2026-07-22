@@ -2,10 +2,19 @@
 #### (Released: 2026-06-30)
 
 **Major Milestones**
-
+* Move faceted search to sidebar on project - dataset pages. This feature displays items that count next to each filter, giving users instant context as they search.*
+* A new data catalogue header. This UI enhancement introduces a new modernized page header while preserving all existing functionality and backward compatibility. *
+* Support creation of new datasets with the new dataset model. Users can now create datasets using the updated dataset model, ensuring compliance with the new structural validation rules.*
+* This feature allows:
+•	Creation of fields and constraints.
+•	An error displays when a field is missing or a field is invalid.
+•	Newly created datasets are stored and are retrievable as expected.*
+* Support the new dataset model for Bento Public. Public access is now available for the new dataset endpoint, supporting data display and translation loading.* 
+* Biosample pop-over feature. This feature allows users to preview key details about a biosample before opening it, enabling them to quickly assess whether it contains the information they are looking for.*
 
 **Other features**
-
+*Implementation of the Bento Data Catalogue Design *
+*New Provenance Display *
 
 ### Version 23 
 #### (Released: 2026-05-27)
