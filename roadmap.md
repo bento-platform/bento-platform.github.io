@@ -1,6 +1,11 @@
 ### Version 24
 ####  (Target 2026-06)
 **Major Milestones**
+*Move Faceted Search to Sidebar on Project - Dataset Pages
+*New Data Catalogue Header
+*Support Creation of New Datasets with the New Dataset Model
+*Support the New Dataset Model for Bento Public
+*Biosample Pop-over Feature
 
 ### Version 23
 ####  (Target 2026-05)
