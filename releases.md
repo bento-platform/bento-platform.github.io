@@ -14,7 +14,7 @@
 
 **Other features**
 *•  Implementation of the Bento Data Catalogue Design 
-•  New Provenance Display*
+*•  The new Provenance display
 
 ### Version 23 
 #### (Released: 2026-05-27)
