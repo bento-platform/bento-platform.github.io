@@ -1,3 +1,5 @@
+### Version 25 (coming soon)
+
 ### Version 24 (current)
 #### (Released: 2026-06-30)
 
