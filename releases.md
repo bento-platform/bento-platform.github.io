@@ -1,5 +1,16 @@
 ### Version 25 (coming soon)
+**Major Milestones**
+* Data Catalogue Design *
+* Enabled Summary Charts in the Data Catalogue *
+* Redesign of the Provenance Display *
+* Replace about text with dataset (long-)description in project/dataset view *
+* French Translations for Datasets *
 
+ **Other features**
+* Users with smaller screens will be able to fit more charts on-screen at once with an improved chart layout and an optional compact mode.*
+* Authorized users will be able to select columns of interest when exporting tabular data, and export Excel files directly from Bento. *
+ * For multi-dataset instances, the data catalogue will improve accessibility for visually impaired users. *
+ 
 ### Version 24 (current)
 #### (Released: 2026-06-30)
 
