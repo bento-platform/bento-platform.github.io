@@ -1,4 +1,4 @@
-### Version 25 (coming soon)
+### Version 25 
 **Major Milestones**
 * Data Catalogue Design *
 * Enabled Summary Charts in the Data Catalogue *
