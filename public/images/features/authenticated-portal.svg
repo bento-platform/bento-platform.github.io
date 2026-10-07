@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500"><rect width="800" height="500" rx="24" fill="#e8f2f9"/><circle cx="90" cy="90" r="150" fill="#d5e8f5"/><circle cx="730" cy="440" r="170" fill="#d5e8f5"/>
+<!-- browser window -->
+<rect x="110" y="80" width="580" height="340" rx="20" fill="#fff" stroke="#c9dcea" stroke-width="2"/>
+<path d="M110 100a20 20 0 0 1 20-20h540a20 20 0 0 1 20 20v28H110z" fill="#146193"/><circle cx="140" cy="104" r="6" fill="#fff" opacity=".8"/><circle cx="162" cy="104" r="6" fill="#fff" opacity=".6"/><circle cx="184" cy="104" r="6" fill="#fff" opacity=".4"/>
+<!-- filter sliders -->
+<g stroke-linecap="round"><line x1="150" y1="180" x2="330" y2="180" stroke="#c9dcea" stroke-width="8"/><line x1="150" y1="180" x2="250" y2="180" stroke="#14b8c4" stroke-width="8"/><circle cx="250" cy="180" r="14" fill="#fff" stroke="#14b8c4" stroke-width="5"/>
+<line x1="150" y1="240" x2="330" y2="240" stroke="#c9dcea" stroke-width="8"/><line x1="150" y1="240" x2="300" y2="240" stroke="#ff9a4d" stroke-width="8"/><circle cx="300" cy="240" r="14" fill="#fff" stroke="#ff9a4d" stroke-width="5"/>
+<line x1="150" y1="300" x2="330" y2="300" stroke="#c9dcea" stroke-width="8"/><line x1="150" y1="300" x2="200" y2="300" stroke="#8a63f0" stroke-width="8"/><circle cx="200" cy="300" r="14" fill="#fff" stroke="#8a63f0" stroke-width="5"/></g>
+<rect x="150" y="345" width="90" height="38" rx="19" fill="#146193"/><rect x="250" y="345" width="80" height="38" rx="19" fill="#e8f2f9"/>
+<!-- participants rows -->
+<g><rect x="370" y="160" width="290" height="50" rx="12" fill="#e8f2f9"/><circle cx="398" cy="185" r="14" fill="#146193"/><rect x="424" y="171" width="100" height="10" rx="5" fill="#0b1b30"/><rect x="424" y="190" width="150" height="8" rx="4" fill="#b7c6d6"/>
+<rect x="370" y="222" width="290" height="50" rx="12" fill="#e8f2f9"/><circle cx="398" cy="247" r="14" fill="#ff9a4d"/><rect x="424" y="233" width="80" height="10" rx="5" fill="#0b1b30"/><rect x="424" y="252" width="130" height="8" rx="4" fill="#b7c6d6"/>
+<rect x="370" y="284" width="290" height="50" rx="12" fill="#e8f2f9"/><circle cx="398" cy="309" r="14" fill="#14b8c4"/><rect x="424" y="295" width="110" height="10" rx="5" fill="#0b1b30"/><rect x="424" y="314" width="120" height="8" rx="4" fill="#b7c6d6"/></g>
+<!-- key badge -->
+<circle cx="640" cy="400" r="62" fill="#ff9a4d"/><circle cx="640" cy="400" r="48" fill="#ffb877"/>
+<circle cx="624" cy="392" r="16" fill="none" stroke="#fff" stroke-width="8"/><path d="M638 402l34 22M660 416l9-9M670 422l8-8" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+</svg>

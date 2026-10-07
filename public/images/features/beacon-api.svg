@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500"><rect width="800" height="500" rx="24" fill="#e8f2f9"/><circle cx="90" cy="90" r="150" fill="#d5e8f5"/><circle cx="730" cy="440" r="170" fill="#d5e8f5"/>
+<!-- connections -->
+<g stroke="#146193" stroke-width="4" stroke-dasharray="3 11" stroke-linecap="round" fill="none"><path d="M400 250L170 130M400 250L630 130M400 250L150 360M400 250L650 360"/></g>
+<!-- rings -->
+<circle cx="400" cy="250" r="118" fill="none" stroke="#146193" stroke-width="2" opacity=".25"/><circle cx="400" cy="250" r="84" fill="none" stroke="#146193" stroke-width="2" opacity=".4"/>
+<!-- beacon hub -->
+<circle cx="400" cy="250" r="62" fill="#146193"/><circle cx="400" cy="250" r="46" fill="#1d7ab5"/>
+<path d="M386 280h28l-6-60h-16z" fill="#fff"/><rect x="383" y="276" width="34" height="10" rx="4" fill="#ff9a4d"/><circle cx="400" cy="214" r="9" fill="#ffd2a8"/>
+<path d="M376 206c-10 8-10 22 0 30M424 206c10 8 10 22 0 30" stroke="#ffd2a8" stroke-width="4" fill="none" stroke-linecap="round"/>
+<!-- external apps -->
+<g><rect x="105" y="95" width="130" height="80" rx="16" fill="#fff" stroke="#c9dcea" stroke-width="2"/><rect x="125" y="115" width="60" height="9" rx="4" fill="#14b8c4"/><rect x="125" y="135" width="90" height="8" rx="4" fill="#b7c6d6"/><rect x="125" y="151" width="50" height="8" rx="4" fill="#b7c6d6"/>
+<rect x="565" y="95" width="130" height="80" rx="16" fill="#fff" stroke="#c9dcea" stroke-width="2"/><circle cx="600" cy="135" r="20" fill="#ff9a4d"/><rect x="632" y="122" width="48" height="9" rx="4" fill="#0b1b30"/><rect x="632" y="140" width="38" height="8" rx="4" fill="#b7c6d6"/>
+<rect x="85" y="320" width="130" height="80" rx="16" fill="#fff" stroke="#c9dcea" stroke-width="2"/><path d="M105 375l22-28 20 18 22-30 26 40z" fill="#8a63f0"/>
+<rect x="585" y="320" width="130" height="80" rx="16" fill="#fff" stroke="#c9dcea" stroke-width="2"/><g fill="#2fbf3a"><rect x="607" y="368" width="14" height="16" rx="3"/><rect x="629" y="350" width="14" height="34" rx="3"/><rect x="651" y="338" width="14" height="46" rx="3"/><rect x="673" y="356" width="14" height="28" rx="3"/></g></g>
+</svg>
