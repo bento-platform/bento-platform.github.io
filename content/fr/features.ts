@@ -19,14 +19,14 @@ const features: FeatureItem[] = [
     slug: "authenticated-exploration",
     image: "/images/features/authenticated-portal.svg",
     alt: "Illustration d'une fenêtre de navigateur avec des filtres et des lignes de participants, avec une clé pour l'accès approuvé",
-    eyebrow: "Portail authentifié",
+    eyebrow: "Exploration au niveau des participants",
     caption: "Exploration fine des données au niveau du participant/de l'individu, réservée aux utilisateurs approuvés.",
   },
   {
     slug: "authenticated-queries",
     image: "/images/features/combined-queries.svg",
     alt: "Illustration d'un graphique clinique et d'une hélice d'ADN reliés par une icône de recherche",
-    eyebrow: "Portail authentifié",
+    eyebrow: "Requêtes cliniques et génomiques",
     caption: "Exécutez simultanément des requêtes sur les données cliniques/phénotypiques et les variations génomiques.",
   },
   {
