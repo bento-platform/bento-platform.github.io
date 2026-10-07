@@ -73,8 +73,8 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
           <Image
             src={withBasePath("/images/bento-hero-v2.png")}
             alt={t("heroImageAlt")}
-            width={3194}
-            height={2870}
+            width={1995}
+            height={1828}
             sizes="(min-width: 1024px) 640px, 100vw"
             className="h-auto w-full"
             priority
