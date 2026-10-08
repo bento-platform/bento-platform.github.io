@@ -1,78 +1,73 @@
 # Bento Platform - GitHub Pages Site
 
-This repository hosts the [Bento Platform](https://bento-platform.github.io) presentation website, built with [Reveal.js](https://revealjs.com/).
+This repository hosts the [Bento Platform](https://bento-platform.github.io) website: a statically-generated, bilingual (English/French) [Next.js](https://nextjs.org/) site, deployed to GitHub Pages.
 
-## Repository Structure
+## Repository structure
 
 ```
 bento-platform.github.io/
-├── index.html          # Main presentation file
-├── goals.md            # Platform goals and design principles
-├── features.md         # Feature descriptions with screenshots
-├── releases.md         # Release history and changelogs
-├── roadmap.md          # Future planned features
-├── img/                # Screenshots and logos
-└── reveal.js/          # Presentation framework
+├── app/
+│   ├── page.tsx              # root redirect stub -> /en/
+│   ├── sitemap.ts, robots.ts
+│   └── [locale]/             # locale-prefixed routes: /en/..., /fr/...
+│       ├── layout.tsx        # header/footer chrome, i18n provider
+│       ├── page.tsx          # Home
+│       ├── goals/page.tsx
+│       ├── features/page.tsx
+│       └── releases/page.tsx
+├── components/                # shared UI (Header, Footer, cards, timelines, ...)
+├── content/
+│   ├── types.ts               # shared content shapes
+│   ├── en/{goals,features,releases}.ts
+│   └── fr/{goals,features,releases}.ts
+├── messages/{en,fr}.json      # UI chrome strings (nav, buttons, labels) for next-intl
+├── i18n/                      # next-intl routing/config
+├── lib/                       # site config + SEO metadata helpers
+├── public/images/             # screenshots, logo, OG image
+└── .github/workflows/deploy.yml
 ```
 
-## Viewing the Presentation
+## Local development
 
-Visit [https://bento-platform.github.io](https://bento-platform.github.io) to view the live presentation.
+```bash
+npm install
+npm run dev
+```
 
-**Navigation:**
-- Use arrow keys or mouse wheel to navigate between slides
-- Press `Esc` to see the slide overview
-- Press `?` for keyboard shortcuts
+Then open `http://localhost:3000/en/` (or `/fr/`).
 
-## Updating Content
+## Building
 
-### Adding a New Release
+```bash
+npm run build
+```
 
-1. Edit `releases.md`:
-   - Add the new version at the top with `(current)` marker
-   - Remove `(current)` from the previous version
-   - Include release date and features
+This produces a fully static export in `out/` (`next.config.ts` sets `output: "export"`), which is what gets deployed to GitHub Pages — no Node server runs in production.
 
-2. Update `roadmap.md`:
-   - Remove the released version
-   - Add future planned versions if applicable
+## Updating content
 
-### Modifying Features or Goals
+### Adding a new release
 
-Edit the respective markdown files:
-- `features.md` - Update feature descriptions and screenshots
-- `goals.md` - Modify platform goals and principles
-- `roadmap.md` - Update upcoming planned features
+Edit `content/en/releases.ts` **and** `content/fr/releases.ts`:
 
-### Adding Screenshots
+- Add the new version at the top of the array with `status: "current"`, and change the previous "current" entry to `status: "released"`.
+- Fill in `majorMilestones` / `otherFeatures`.
 
-1. Place image files in the `img/` directory
-2. Reference them in markdown files using the format:
-   ```markdown
-   ![alt-text](img%2Ffilename.png)
-   ```
-   Note: Use `%2F` instead of `/` in the image path for Reveal.js compatibility
+### Goals / Features
 
-## Local Development
+Edit `content/en/goals.ts` / `content/fr/goals.ts` or `content/en/features.ts` / `content/fr/features.ts`. Body/bullet text may contain `[label](url)` markdown-style links, which render as real links via the `InlineText` component.
 
-To view the presentation locally:
+### Screenshots
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/bento-platform/bento-platform.github.io.git
-   cd bento-platform.github.io
-   ```
+Add image files to `public/images/`, reference them as `/images/filename.png` from `content/*/features.ts`, and add their pixel dimensions to `IMAGE_DIMENSIONS` in `components/FeatureShowcase.tsx` (required by `next/image`).
 
-2. Serve the site using a local web server:
-   ```bash
-   # Using Python 3
-   python3 -m http.server 8000
+### UI text / adding a language
 
-   # Or using Node.js
-   npx http-server
-   ```
+Chrome strings (nav, buttons, footer, etc.) live in `messages/en.json` / `messages/fr.json`. To add a new language: add the locale to `i18n/routing.ts`, add `messages/<locale>.json`, and add a `content/<locale>/` folder mirroring `content/en/`.
 
-3. Open your browser to `http://localhost:8000`
+## Deployment
+
+Pushes to `main` trigger `.github/workflows/deploy.yml`, which builds the static export and deploys it via GitHub Actions to GitHub Pages. In the repo's **Settings → Pages**, the source must be set to **GitHub Actions** (not "Deploy from a branch").
 
 ## Contributing
 
@@ -84,9 +79,8 @@ Contributions are welcome! To contribute:
 4. Submit a pull request
 
 For content updates, please ensure:
-- Markdown formatting is consistent
+- Both English and French content are updated together
 - Screenshots are clear and up-to-date
-- Release notes follow the existing format
 - Canadian English spelling is used consistently (e.g., "organize", "standardize")
 
 ## Links
@@ -96,7 +90,7 @@ For content updates, please ensure:
 
 ## License
 
-This presentation site is licensed under the [GNU Lesser General Public License v3.0 (LGPL-3.0)](LICENSE). The Bento Platform software components each have their own licenses - see individual repositories for details.
+This website is licensed under the [GNU Lesser General Public License v3.0 (LGPL-3.0)](LICENSE). The Bento Platform software components each have their own licenses - see individual repositories for details.
 
 ## Contact
 

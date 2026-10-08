@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "goals": "Objectifs",
+    "features": "Fonctionnalités",
+    "releases": "Versions",
+    "github": "GitHub"
+  },
+  "common": {
+    "viewOnGithub": "Voir sur GitHub",
+    "readMore": "En savoir plus",
+    "skipToContent": "Aller au contenu"
+  },
+  "home": {
+    "title": "Bento Platform",
+    "tagline": "Une plateforme web à code source ouvert pour explorer et partager des données cliniques et -omiques.",
+    "heroImageAlt": "Aperçu du catalogue de données Bento : une barre de recherche, une fiche d'étude et des totaux d'études, d'échantillons et de participants.",
+    "heroCta": "Voir le projet sur GitHub",
+    "trustedBy": "Ils nous font confiance",
+    "introEyebrow": "Introduction",
+    "introHeading": "Une seule plateforme, conçue pour les données génomiques",
+    "intro1": "Un besoin récurrent des projets en génomique concerne la mise en œuvre, le déploiement et la maintenance d'une plateforme permettant d'organiser leurs jeux de données. Les exigences sont essentiellement les mêmes : normaliser, ingérer, permettre l'interrogation et la récupération de données cliniques, expérimentales et multi-omiques.",
+    "intro2": "La plateforme Bento a été créée comme une solution réutilisable pour répondre à ces besoins communs. Elle vise à suivre le plus fidèlement possible les normes internationales de données, telles que celles du <ga4gh>GA4GH</ga4gh>, afin de tirer parti du partage des données aux côtés d'autres initiatives.",
+    "intro3": "Un nœud de la plateforme Bento est composé de nombreux services, chacun accomplissant une tâche spécifique. Certains composants peuvent être inclus, ou laissés de côté, selon les besoins du projet qui l'utilise.",
+    "exploreHeading": "Explorer la plateforme",
+    "exploreDescription": "Découvrez ce que Bento se propose de faire, ce qu'elle sait déjà faire, et ce qui s'en vient.",
+    "goalsCardTitle": "Objectifs",
+    "goalsCardDescription": "Les principes qui guident la conception de Bento, des normes de données au déploiement.",
+    "featuresCardTitle": "Fonctionnalités",
+    "featuresCardDescription": "Un aperçu du tableau de bord public, du portail authentifié et de l'API Beacon.",
+    "releasesCardTitle": "Versions",
+    "releasesCardDescription": "L'historique des versions et le contenu de chaque version de Bento."
+  },
+  "goals": {
+    "title": "Objectifs",
+    "description": "Les principes qui guident la conception et le développement de Bento.",
+    "eyebrow": "Pourquoi Bento est construite ainsi"
+  },
+  "features": {
+    "title": "Fonctionnalités",
+    "description": "Un tour d'horizon du tableau de bord public, du portail d'exploration authentifié et de l'API Beacon.",
+    "eyebrow": "À l'œuvre"
+  },
+  "releases": {
+    "title": "Versions",
+    "description": "Historique des versions de la plateforme Bento, de la plus récente à la plus ancienne.",
+    "eyebrow": "Journal des modifications",
+    "current": "Version actuelle",
+    "released": "Publiée",
+    "majorMilestones": "Jalons majeurs",
+    "otherFeatures": "Autres fonctionnalités",
+    "comingSoon": "À venir"
+  },
+  "footer": {
+    "tagline": "Une plateforme web à code source ouvert pour explorer et partager des données cliniques et -omiques.",
+    "org": "Bento-Platform sur GitHub",
+    "license": "Distribué sous licence GNU Lesser General Public License v3.0",
+    "sections": "Sections",
+    "language": "Langue"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "La page que vous recherchez n'existe pas.",
+    "cta": "Retour à l'accueil"
+  },
+  "redirect": {
+    "message": "Redirection vers le site de la plateforme Bento…"
+  }
+}
