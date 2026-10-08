@@ -56,7 +56,8 @@
     "org": "Bento-Platform sur GitHub",
     "license": "Distribué sous licence GNU Lesser General Public License v3.0",
     "sections": "Sections",
-    "language": "Langue"
+    "language": "Langue",
+    "aiTranslation": "Cette traduction française a été générée par IA. Elle peut contenir des erreurs ; n'hésitez pas à nous les signaler sur GitHub."
   },
   "notFound": {
     "title": "Page introuvable",

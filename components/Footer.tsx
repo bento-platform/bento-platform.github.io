@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { githubOrgUrl } from "@/lib/site-config";
 import Logo from "@/components/Logo";
@@ -13,6 +13,7 @@ const navItems = [
 export default function Footer() {
   const tNav = useTranslations("nav");
   const tFooter = useTranslations("footer");
+  const locale = useLocale();
 
   return (
     <footer className="border-t border-border-soft bg-brand-soft/40">
@@ -48,6 +49,7 @@ export default function Footer() {
             </a>
           </p>
           <p className="mt-4 text-xs text-foreground/70">{tFooter("license")}</p>
+          {locale === "fr" && <p className="mt-2 text-xs text-foreground/70">{tFooter("aiTranslation")}</p>}
         </div>
       </div>
     </footer>
