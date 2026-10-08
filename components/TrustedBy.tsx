@@ -8,7 +8,7 @@ const partners: { src?: string; alt: string; width?: number; height?: number; la
     alt: "Pan-Canadian Genome Library",
     width: 378,
     height: 140,
-    href: "https://pcgl.bento.sd4h.ca",
+    href: "https://genomelibrary.ca/",
   },
   { src: "/images/trusted-by/bqc19.png", alt: "BQC19", width: 382, height: 128, href: "https://bqc19.bento.sd4h.ca" },
   { src: "/images/trusted-by/ichange.png", alt: "ICHANGE", width: 518, height: 128, href: "https://ichange.bento.sd4h.ca" },
